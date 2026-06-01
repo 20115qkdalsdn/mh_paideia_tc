@@ -128,7 +128,7 @@ const questions = [
   {
     section: "aiUser",
     sheetKey: "Q_무수정제출비율",
-    title: "AI가 생성한 내용을 거의 수정 없이 제출하는 학생이 얼마나 된다고 생각하시나요?",
+    title: "AI가 생성한 내용을 수정 없이 제출하는 학생이 어느 정도 있다고 생각하시나요?",
     type: "radio",
     options: [
       { value: "매우 많다",   emoji: "😨" },
@@ -143,7 +143,7 @@ const questions = [
   {
     section: "aiUser",
     sheetKey: "Q_우려사항",
-    title: "학생들의 AI 활용과 관련하여 우려되는 점은 무엇입니까?",
+    title: "학생들의 AI 활용과 관련하여 우려되는 점은 무엇인가요?",
     type: "checkbox",
     hasEtc: true,
     options: [
@@ -160,7 +160,7 @@ const questions = [
   {
     section: "aiUser",
     sheetKey: "Q_조치시행여부",
-    title: "학생들의 AI 활용을 위해 별도의 조치를 시행한 적이 있으시나요?",
+    title: "학생들의 AI 활용을 위해 별도의 조치를 시행한 적이 있으신가요?",
     type: "radio",
     triggersConditional: "q_measures", // Q15를 조건부로 표시할 트리거 키
     options: [
@@ -173,7 +173,7 @@ const questions = [
   {
     section: "aiUser",
     sheetKey: "Q_조치내용",
-    title: "어떤 조치를 시행하셨습니까?",
+    title: "어떤 조치를 시행하셨나요?",
     type: "checkbox",
     hasEtc: true,
     conditionalKey: "q_measures",   // Q14의 triggersConditional과 연결
